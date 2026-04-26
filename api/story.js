@@ -48,7 +48,7 @@ Return the full response as plain text with the prose first, then the IMAGE: lin
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-3-haiku-20240307',
         max_tokens: 400,
         system: systemPrompt,
         messages: [
